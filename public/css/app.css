@@ -1,0 +1,28 @@
+/* .brand {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.nav-link {
+    color: black;
+} */
+
+.navCol {
+    padding: 0 !important;
+}
+
+.bookSearchContainer {
+    background-color: rgb(174, 208, 253);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bookSearchTitle p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.bookSearchTitle {
+    padding: 20px 0;
+}
