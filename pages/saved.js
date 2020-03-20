@@ -1,5 +1,5 @@
-import { Container, Row, Col } from 'reactstrap'
-import Navbar from '../src/Components/Navbar'
+import Navbar from '../src/Components/Navbar';
+import Banner from '../src/Components/BookSearchBanner';
 
 export default function Saved() {
 
@@ -7,7 +7,7 @@ export default function Saved() {
 
     <>
         <Navbar />
-        <h1>SAVED</h1>
+        <Banner />
     </>
     
   )

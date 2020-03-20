@@ -1,28 +1,54 @@
-/* .brand {
-    text-decoration: none;
-    font-size: 30px;
-    padding-left: 30px;
-}
-
-.nav-link {
-    color: black;
-} */
-
 .navCol {
     padding: 0 !important;
 }
 
-.bookSearchContainer {
-    background-color: rgb(174, 208, 253);
+.bookBannerContainer,.bookSearchContainer {
     margin-top: 30px;
+}
+
+.bookBannerContainer {
+    background-color: rgb(174, 208, 253);
     text-align: center;
 }
 
-.bookSearchTitle p {
+.bookSearchContainer {
+    border: 5px solid black;
+}
+
+.bookBannerTitle p {
     margin: 0;
     font-size: 20px;
 }
 
+.bookBannerTitle {
+    padding: 20px 0;
+}
+
 .bookSearchTitle {
     padding: 20px 0;
+}
+
+.searchForm {
+    margin-top: 20px;
+}
+
+.results {
+    border: 3px solid black;
+    margin: 0 10px !important;
+}
+
+.results h5 {
+    margin: 20px 0 0 0;
+}
+
+.results .author {
+    padding-bottom: 10px;
+}
+
+.resultButtons {
+    display: flex;
+}
+
+.button1 {
+    margin-left: auto;
 }
