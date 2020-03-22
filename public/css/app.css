@@ -52,3 +52,14 @@
 .button1 {
     margin-left: auto;
 }
+
+.resultsPic {
+    width: 150px;
+    height: 230px;
+    float: left;
+    margin-right: 20px;
+}
+/* 
+.bookDesc {
+    padding-left: 20px !important;
+} */

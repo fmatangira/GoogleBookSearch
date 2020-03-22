@@ -1,6 +1,6 @@
 import { Container, Row, Col, Form } from 'react-bootstrap';
 
-export default function BookSearchForm() {
+export default function BookSearchForm(props) {
 
     return (
         <Container className="bookSearchContainer">
@@ -8,10 +8,10 @@ export default function BookSearchForm() {
                 <Col lg={12} className="bookSearchTitle">
                     <h4 >Book Search</h4>
                     <Form.Group className="searchForm">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Enter the title of the book..."/>
-                                <span class="input-group-btn">
-                                    <button class="btn btn-primary" type="button">Search</button>
+                        <div className="input-group">
+                            <input type="text" className="form-control" placeholder="Enter the title of the book..." ref={props.refer}/>
+                                <span className="input-group-btn">
+                                    <button className="btn btn-primary" type="button" onClick={props.handleClick}>Search</button>
                                 </span>
                         </div>
                     </Form.Group>
